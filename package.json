@@ -1,0 +1,21 @@
+{
+  "name": "node-java-maven",
+  "version": "0.0.12",
+  "description": "Utility for Node's java module to load mvn dependencies.",
+  "main": "index.js",
+  "bin": {
+    "node-java-maven": "bin/node-java-maven"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec test"
+  },
+  "keywords": [
+    "java",
+    "maven",
+    "mvn"
+  ],
+  "devDependencies": {
+    "fs-extra": "^0.26.2",
+    "mocha": "^2.3.4"
+  }
+}
